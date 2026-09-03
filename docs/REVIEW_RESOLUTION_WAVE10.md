@@ -30,7 +30,7 @@ head/base, and unresolved threads.
 ### 1. Guard --output against client config targets
 
 - Thread: PRRT_kwDOTNj9Nc6QDHdX
-- Location: docs/decisions/ADR-005:18
+- Location: docs/decisions/ADR-005-readonly-v1.md:18
 - Normative resolution: Before writing a report, the CLI resolves the output
   target and every discovered client-config target through existing ancestors and
   rejects a target whose canonical identity equals or aliases a client config.
